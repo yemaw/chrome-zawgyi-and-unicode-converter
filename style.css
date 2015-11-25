@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Yunghkio';
+    src:local('Yunghkio'), url('font/yunghkio.woff') format('woff'), url('/font/yunghkio.ttf') format('ttf');
+}
+
+/* Custom CSS */
+*{box-sizing: border-box;}
+
+#result_uni2zg{
+    font-family: "ZawGyi-One","zawgyi1";
+    font-size: 12px;
+}
+#result_zg2uni{
+    font-family: "Yunghkio","Myanmar3","Parabaik","Padauk",'WinUni Innwa','Win Uni Innwa','MyMyanmar Unicode',"Myanmar2";
+    font-size: 12px;"
+}
+
+.input{
+    padding:10px;
+    width: 100%;
+    height:50%;
+}
+.result{
+    padding:10px;
+    width:100%;
+    height:auto;
+    background:#f0f0f0;
+}
+.result::selection{
+    /*background: #3498db;*/
+}
+.page_title {
+    color:#444444;
+    font-size:16px;
+    margin-left:20px;
+}
+.field_title{color:#999999;margin-bottom:5px;}
+
+/* Simple Tabs overides */
+div.simpleTabs{
+    min-width:400px;min-height:400px;
+    height: 400px; width:auto;
+}
+div.simpleTabsContent.currentTab{
+    width:auto;
+    min-height: 96%;
+}
+ul.simpleTabsNavigation li a { color:#2c3e50;}
