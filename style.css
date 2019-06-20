@@ -6,13 +6,13 @@
 /* Custom CSS */
 *{box-sizing: border-box;}
 
-#result_uni2zg{
-    font-family: "ZawGyi-One","zawgyi1";
-    font-size: 12px;
+
+.uni {
+    font-family: "Pyidaungsu", "Yunghkio","Myanmar3","Parabaik","Padauk",'WinUni Innwa','Win Uni Innwa','MyMyanmar Unicode',"Myanmar2";
 }
-#result_zg2uni{
-    font-family: "Yunghkio","Myanmar3","Parabaik","Padauk",'WinUni Innwa','Win Uni Innwa','MyMyanmar Unicode',"Myanmar2";
-    font-size: 12px;"
+
+.zg {
+    font-family: "ZawGyi-One","zawgyi1";
 }
 
 .input{
@@ -21,6 +21,7 @@
     height:50%;
 }
 .result{
+    font-size: 12px;
     padding:10px;
     width:100%;
     height:auto;
